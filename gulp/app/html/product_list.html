@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block content %}
+{% for cat in cats %}
+<div><h1><a href="/{{ cat.id }}">{{ cat.name }}</a></h1></div>
+{% endfor %}
+{% for product in object_list %}
+   <div>{{ product.name }}</div>
+   <div>{{ product.description }}</div>
+   <div>{{ product.price }}p</div>
+   <img src="{{ product.image.url }}">
+   <a href=""><button type="submit">Купить</button></a>
+   {% endfor %}
+   <div><a href="/add-product"><button type="submit">Предложить товар</button></a></div>
+{% endblock %}

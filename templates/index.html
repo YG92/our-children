@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+
+
+     <a href="/logout"><button type="submit">Выйти</button></a>
+
+         <form method="post" action="{% url 'login' %}">
+
+  	   <p><input type="text" placeholder="Логин" name="username"></p>
+  	   <p><input type="password" placeholder="Пароль" name="password"></p>
+             <p><a href="/login"><button type="submit">Войти</button></a></p>
+         </form>
+
+  </header>
+<footer>
+  <p>Сделано в smena для помощи детям</p>
+  <p>2007-2016 © Некоммерческий Благотворительный Фонд «Наши Дети» г.Уфа</p>
+</footer>
+</body>
+</html>

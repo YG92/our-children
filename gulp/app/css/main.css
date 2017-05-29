@@ -1,0 +1,111 @@
+h4 {
+  font-size: 2vw; }
+
+.text {
+  margin-left: 1vw;
+  font-size: 1.4vw; }
+
+.right-col img {
+  width: 43%;
+  margin-top: 1.7vw; }
+
+.fa-2x {
+  font-size: 3.4vw !important; }
+
+.fa {
+  width: 6vw;
+  float: right; }
+
+.left-col {
+  width: 52%;
+  float: left; }
+
+.right-col {
+  width: 48%;
+  float: left; }
+
+.social {
+  float: right;
+  width: 57%; }
+
+.social p {
+  width: 100%;
+  padding-left: 0.7vw;
+  padding-right: 1vw;
+  font-size: 1.5vw; }
+
+.left-col p {
+  margin: 0; }
+
+.left-col h3 {
+  margin-bottom: 0; }
+
+.cats {
+  width: 80%;
+  margin-top: 2vw; }
+
+.cats h4 {
+  float: left;
+  margin-left: 1vw;
+  margin-top: 1vw; }
+
+button {
+  font-size: 1.3vw;
+  width: 12vw;
+  height: 3.5vw; }
+
+.buttons button {
+  margin-left: 0.6vw;
+  margin-bottom: 0.6vw; }
+
+.buttons {
+  float: left;
+  width: 80%; }
+
+.prod {
+  width: 22.9%;
+  float: left;
+  margin: 1vw 1vw 2vw 1vw; }
+
+.prod p {
+  margin: 0.8vw; }
+
+.prod button {
+  font-size: 1.6vw;
+  width: 11vw;
+  height: 3vw;
+  padding-bottom: 0.5vw; }
+
+.image {
+  height: 22vw; }
+
+#cat-name {
+  width: 10vw;
+  font-size: 1.8vw; }
+
+#price {
+  font-size: 2vw; }
+
+#stock {
+  font-size: 1.5vw;
+  text-align: center; }
+
+#offer-prod button {
+  width: 15vw;
+  height: 3vw;
+  margin: 2vw 1vw; }
+
+#offer-prod button:hover {
+  background-color: #006bb3; }
+
+.footer {
+  margin-left: 1vw; }
+
+.footer span {
+  font-size: 1.7vw; }
+
+.footer p {
+  font-size: 1.3vw; }
+
+.footer img {
+  width: 8%; }
